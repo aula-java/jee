@@ -11,6 +11,8 @@
 		<!-- The datasource is at src/main/webapp/WEB-INF/webapp-ds.xml -->
 		<jta-data-source>java:jboss/datasources/webappDS</jta-data-source>
 		
+		<class>br.edu.ifrs.canoas.jee.webapp.model.entity.Usuario</class>
+		
 		<properties>
 			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
 			<property name="hibernate.show_sql" value="true" />
